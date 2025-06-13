@@ -33,7 +33,7 @@ Aplicación Android desarrollada en Kotlin usando Android Studio. Permite:
 
 - Android Studio (Kotlin)
 - Firebase Realtime Database
-- Gemini AI Generative Language v1 (Kotlin)
+- Gemini AI Generative Language v1 - Modelo gemini 2.0 Flash (Kotlin)
 - Firebase Functions (JavaScript)
 
 ### 📚 Librerías
