@@ -36,7 +36,7 @@ Aplicación Android desarrollada en Kotlin usando Android Studio. Permite:
 - Gemini AI Generative Language v1 (Kotlin)
 - Firebase Functions (JavaScript)
 
-### 🔧 Librerías
+### 📚 Librerías
 - MPAndroidChart (Gráficas)
 - LiveData (Cambios en tiempo real de los datos)
 - Retrofit2 (Generación de llamadas a la API de Gemini)
