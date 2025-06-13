@@ -1,10 +1,10 @@
-# TFG - Sistema de monitorización inteligente para el cultivo del olivar
+# TFG - Sistema de monitorización para el cultivo del olivar
 
 Este repositorio contiene el desarrollo completo del Trabajo de Fin de Grado, cuyo objetivo es facilitar la gestión hídrica del olivar mediante una solución tecnológica compuesta por:
 
 - Una aplicación móvil Android para la visualización de datos agronómicos.
 - Un backend basado en Firebase Functions que actúa como receptor de datos vía API REST.
-- Una arquitectura modular preparada para la futura integración con sensores IoT reales.
+- Una arquitectura modular que asienta una futura integración con sensores IoT reales.
 
 ---
 
