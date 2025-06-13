@@ -25,23 +25,29 @@ TFG_App_Back_Real/
 
 Aplicación Android desarrollada en Kotlin usando Android Studio. Permite:
 
-- Consultar datos de sensores agrícolas (humedad, temperatura, variación del dendrómetro).
-- Visualizar series temporales con gráficos interactivos.
+- Consultar datos de sensores higrómetros y dendrómetros (humedad, temperatura, variación). Mediante la visualización de series temporales con gráficos.
 - Integración con un asistente conversacional (Gemini AI) para recomendaciones adaptadas.
-- Estructura preparada para integración con Firebase Realtime Database.
+- Estructura adaptada para datos en tiempo por integración con Firebase Realtime Database.
 
 ### 🔧 Tecnologías
 
 - Android Studio (Kotlin)
 - Firebase Realtime Database
-- Gemini AI
-- MPAndroidChart
+- Gemini AI Generative Language v1 (Kotlin)
+- Firebase Functions (JavaScript)
+
+### 🔧 Librerías
+- MPAndroidChart (Gráficas)
+- LiveData (Cambios en tiempo real de los datos)
+- Retrofit2 (Generación de llamadas a la API de Gemini)
+- Firebase (auth, acceso a la bbdd...)
+- Java util, Java Time (Tratamiento de los datos)
 
 ---
 
-## 🌐 Backend - Firebase Functions (`/backend/firebase-functions`)
+## 🌐 Backend - Firebase Functions (`/backend/firebase-functions/index.js`)
 
-Contiene una función `POST` que permite enviar datos al sistema desde sensores IoT o simulaciones. Este endpoint representa la capa de entrada de datos al sistema, y su estructura garantiza la separación entre la lógica IoT y el visor.
+Contiene una función `POST` que permite enviar datos al sistema desde sensores IoT o simulaciones. Este endpoint representa la capa de entrada de datos al sistema, siguiendo la estructura se pueden enviar datos al visor siempre que el usuario esté autenticado.
 
 ### ✉️ Estructura del JSON esperado
 
