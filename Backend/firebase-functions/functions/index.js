@@ -33,7 +33,7 @@ exports.sendData = functions.https.onRequest(async (req, res) => {
       body: JSON.stringify({ email, password, returnSecureToken })
     });
 
-    // Extraemos el cuerpo de la respuesta.
+    // Extraemos el cuerpo de la respuesta. A
     const authData = await authRes.json();
 
     // Si la autenticación ha sido fallida. Devolvemos error. 'Unauthorised'
