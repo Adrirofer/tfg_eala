@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "58eeb6cf-5210-4981-b6d3-359625bd9309",
+		"name": "Colección TFG",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14937223",
+		"_collection_link": "https://warped-zodiac-871358.postman.co/workspace/Eala~ccb8f280-0a5a-4423-bfaf-a581851981c7/collection/14937223-58eeb6cf-5210-4981-b6d3-359625bd9309?action=share&source=collection_link&creator=14937223"
+	},
+	"item": [
+		{
+			"name": "PostMedicionNuevaConLogIn",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"sensorId\": \"{{sensorId}}\",\r\n    \"fecha\": \"{{fecha}}\",\r\n    \"hora\": \"{{hora}}\",\r\n    \"humedad\" : {{humedad}},\r\n    \"temperatura\": {{temperatura}},\r\n    \"variacion\": {{variacion}},\r\n    \"email\": {{email}},\r\n    \"password\": {{password}},\r\n    \"returnSecureToken\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://senddata-y6ynryjw6a-uc.a.run.app",
+					"protocol": "https",
+					"host": [
+						"senddata-y6ynryjw6a-uc",
+						"a",
+						"run",
+						"app"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
