@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Asistente.AsistenteFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Selección de fecha -->
+        <Button
+            android:id="@+id/btnSeleccionarFecha"
+            android:text="Seleccionar fecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Visualización de la medida -->
+        <TextView
+            android:id="@+id/textMedidaSeleccionada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="La medida seleccionada aparecerá aquí"
+            android:paddingTop="16dp"
+            android:textSize="16sp" />
+
+        <!-- Campo para escribir la pregunta -->
+        <EditText
+            android:id="@+id/inputMensaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Escribe tu pregunta aquí" />
+
+        <!-- Botón de consulta -->
+        <Button
+            android:id="@+id/btnConsultarAsistente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Consultar al asistente agrónomo"
+            android:layout_marginTop="16dp" />
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fillViewport="true"
+            android:padding="16dp">
+
+            <!-- Respuesta del asistente -->
+            <TextView
+                android:id="@+id/textRespuestaAsistente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="La respuesta aparecerá aquí"
+                android:paddingTop="16dp"
+                android:textStyle="italic" />
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

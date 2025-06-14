@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_mediciones_dendometro"
+            android:icon="@drawable/ic_grafica_dend_black_24dp"
+            android:title="@string/menu_mediciones_dendometro" />
+        <item
+            android:id="@+id/nav_mediciones_ta_hdad"
+            android:icon="@drawable/ic_grafica_dend_black_24dp"
+            android:title="@string/menu_mediciones_temp_humedad" />
+        <item
+            android:id="@+id/nav_asistente"
+            android:icon="@drawable/ic_asistente_black_24dp"
+            android:title="@string/menu_asistente" />
+    </group>
+</menu>

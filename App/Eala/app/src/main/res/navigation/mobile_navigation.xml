@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_mediciones_dendometro">
+
+    <fragment
+        android:id="@+id/nav_mediciones_dendometro"
+        android:name="com.example.eala.ui.Mediciones.MedicionesDendometroFragment"
+        android:label="@string/menu_mediciones_dendometro"
+        tools:layout="@layout/fragment_dendometro" />
+
+    <fragment
+        android:id="@+id/nav_mediciones_ta_hdad"
+        android:name="com.example.eala.ui.Mediciones.MedicionesHTFFragment"
+        android:label="@string/menu_mediciones_temp_humedad"
+        tools:layout="@layout/fragment_hft" />
+
+
+    <fragment
+        android:id="@+id/nav_asistente"
+        android:name="com.example.eala.ui.Asistente.AsistenteFragment"
+        android:label="@string/menu_asistente"
+        tools:layout="@layout/fragment_asistente" />
+
+</navigation>

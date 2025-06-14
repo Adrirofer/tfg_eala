@@ -1,0 +1,44 @@
+
+<!-- Aquí definimos los strings que la app va a usar-->
+
+<resources>
+    <string name="app_name">Eala</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">¡Hola!</string>
+    <string name="nav_header_subtitle"> UsuarioN UsuarioA UsuarioA2</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_mediciones_dendometro">Mediciones Dendrómetro</string>
+    <string name="menu_mediciones_temp_humedad">Mediciones Ta/Hdad</string>
+    <string name="menu_asistente">Asistente</string>
+
+    <string name="imagen_logo_eala">Logo Eala</string>
+
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="seleccionar_fecha">Seleccionar fecha</string>
+
+    <string name="cerrar_sesion">Cerrar Sesion</string>
+
+
+    <string name="lorem_ipsum_title">Lorem Ipsum"</string>
+    <string name="lorem_ipsum">Lorem Ipsum is simply placeholder text of the printing and
+        typesetting industry. Lorem Ipsum has been the industry\'s standard placeholder text ever
+        since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+        type specimen book"
+    </string>
+    <string name="btn_cerrar_sesion_content_description">Botón para cerrar la sesión actual de usuario</string>
+    <string name="image_view_item_transform_content_description">Represents an image view in the
+        item
+    </string>
+    <string name="texto_contexto_asistente">
+        Eres un asistente agrícola especializado en olivar tradicional de secano en Andalucía.
+        Interpretas datos de sacados de unos dendrómetros y das consejos prácticos en lenguaje claro,
+        como si hablaras con un agricultor. Conoce el contexto del cultivo y actúa como si ya supieras del
+        historial del olivar. Las respuestas tienen que ser concisas.
+        Las medidas del dendómetro te las voy a pasar separadas por timestamps de un día concreto.
+    </string>
+</resources>
