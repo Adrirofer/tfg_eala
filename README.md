@@ -10,14 +10,12 @@ Este repositorio contiene el desarrollo completo del Trabajo de Fin de Grado, cu
 
 ## 📁 Estructura del repositorio
 
-TFG_App_Back_Real/
-├── app/
-│ └── eala/ # Proyecto Android Studio
-│ └── ... # Código fuente de la app móvil
-│
-├── backend/
-│ └── firebase-functions/ # Proyecto Node.js para Firebase Functions
-│ └── ... # Código del endpoint POST
+tfg_eala/
+  app/
+    - eala/ # Proyecto Android Studio **# Código fuente de la app móvil**
+  
+  backend/
+    - firebase-functions/ # Proyecto Node.js para Firebase Functions **# Código del endpoint POST**
 
 ---
 
