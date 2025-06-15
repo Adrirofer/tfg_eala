@@ -36,7 +36,7 @@ exports.sendData = functions.https.onRequest(async (req, res) => {
     // Extraemos el cuerpo de la respuesta.
     const authData = await authRes.json();
 
-    console.log("Auth data:", authData);
+    console.log("Auth data:", authData); //Utilizamos el log de la firebase console para ayudarnos a depurar.
 
     // Si la autenticación ha sido fallida. Devolvemos error. 'Unauthorised'
     if (!authData.idToken || !authData.localId) {
