@@ -11,6 +11,7 @@ Este repositorio contiene el desarrollo completo del Trabajo de Fin de Grado, cu
 ## 📁 Estructura del repositorio
 
 tfg_eala/
+
   app
   - Eala/ # Proyecto android **# Código de la app móvil**
 
