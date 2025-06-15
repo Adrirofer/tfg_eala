@@ -21,6 +21,6 @@ jobs:
     - name: Run tests with Newman
       run: | 
         newman run .github/tests/Test_Post_Postman.json \
-          --environment .github/tests/TFG_Eala.postman_environment.json
+          --environment .github/tests/TFG_Eala.postman_environment.json \
           --env-var "email=${{ secrets.TEST_USER_EMAIL }}" \
           --env-var "password=${{ secrets.TEST_USER_PSWD }}"
