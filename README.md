@@ -12,7 +12,7 @@ Este repositorio contiene el desarrollo completo del Trabajo de Fin de Grado, cu
 
 tfg_eala/
   app
-  eala/ # Proyecto Android Studio **# Código fuente de la app móvil**
+  - Eala/ # Proyecto android **# Código de la app móvil**
 
   backend
   - firebase-functions/ # Proyecto Node.js para Firebase Functions **# Código del endpoint POST**
