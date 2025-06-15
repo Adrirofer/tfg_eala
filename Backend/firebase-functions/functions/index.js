@@ -33,7 +33,7 @@ exports.sendData = functions.https.onRequest(async (req, res) => {
       body: JSON.stringify({ email, password, returnSecureToken })
     });
 
-    // Extraemos el cuerpo de la respuesta. a
+    // Extraemos el cuerpo de la respuesta.
     const authData = await authRes.json();
 
     console.log("Auth data:", authData);
@@ -55,7 +55,7 @@ exports.sendData = functions.https.onRequest(async (req, res) => {
     // Fijamos nuestros valores en la llamada. Que vienen del cuerpo de nuestra petición.
     await ref.set({ fecha, hora, humedad, temperatura, variacion });
 
-    // Si consigue enviar, devolvemos un '200 OK' a
+    // Si consigue enviar, devolvemos un '200 OK'
     return res.status(200).send("Datos guardados para el usuario: " + uid);
   } catch (error) {
     // Sino, error.
