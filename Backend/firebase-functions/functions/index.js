@@ -33,7 +33,7 @@ exports.sendData = functions.https.onRequest(async (req, res) => {
       body: JSON.stringify({ email, password, returnSecureToken })
     });
 
-    // Extraemos el cuerpo de la respuesta. 
+    // Extraemos el cuerpo de la respuesta. a
     const authData = await authRes.json();
 
     console.log("Auth data:", authData);
