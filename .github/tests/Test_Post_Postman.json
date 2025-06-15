@@ -14,7 +14,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"sensorId\": \"{{sensorId}}\",\r\n    \"fecha\": \"{{fecha}}\",\r\n    \"hora\": \"{{hora}}\",\r\n    \"humedad\" : {{humedad}},\r\n    \"temperatura\": {{temperatura}},\r\n    \"variacion\": {{variacion}},\r\n    \"email\": \"{{email}}\",\r\n    \"password\": \"{{password}}\",\r\n    \"returnSecureToken\": true\r\n}",
+					"raw": "{\r\n    \"sensorId\": \"{{sensorId}}\",\r\n    \"fecha\": \"{{fecha}}\",\r\n    \"hora\": \"{{hora}}\",\r\n    \"humedad\" : \"{{humedad}}\",\r\n    \"temperatura\": \"{{temperatura}}\",\r\n    \"variacion\": \"{{variacion}}\",\r\n    \"email\": \"{{email}}\",\r\n    \"password\": \"{{password}}\",\r\n    \"returnSecureToken\": true\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
