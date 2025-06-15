@@ -36,6 +36,8 @@ exports.sendData = functions.https.onRequest(async (req, res) => {
     // Extraemos el cuerpo de la respuesta. 
     const authData = await authRes.json();
 
+    console.log("Auth data:", authData);
+
     // Si la autenticación ha sido fallida. Devolvemos error. 'Unauthorised'
     if (!authData.idToken || !authData.localId) {
       return res.status(401).send("Error en la autenticación del usuario");
@@ -53,7 +55,7 @@ exports.sendData = functions.https.onRequest(async (req, res) => {
     // Fijamos nuestros valores en la llamada. Que vienen del cuerpo de nuestra petición.
     await ref.set({ fecha, hora, humedad, temperatura, variacion });
 
-    // Si consigue enviar, devolvemos un '200 OK'
+    // Si consigue enviar, devolvemos un '200 OK' a
     return res.status(200).send("Datos guardados para el usuario: " + uid);
   } catch (error) {
     // Sino, error.
