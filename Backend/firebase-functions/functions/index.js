@@ -18,7 +18,7 @@ exports.sendData = functions.https.onRequest(async (req, res) => {
   // Extraemos los datos del body de nuestra petición. Identificando donde alojaremos cada atributo.
   const { email, password, returnSecureToken, sensorId, fecha, hora, humedad, temperatura, variacion } = req.body;
 
-  // Controlamos que no falte ningún atributo. Antes de hacer nada.
+  // Controlamos que no falte ningún atributo. Antes de hacer nada. a
   if (!email || !password || returnSecureToken == null ||
       !sensorId || !fecha || !hora || humedad == null || temperatura == null || variacion == null) {
     return res.status(400).send("Falta algún parámetro de la medición"); //Enviamoss 'Bad request' en este caso.
